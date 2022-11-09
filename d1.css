@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* nav bar */
+p{
+    font-family: 'ubuntu', sans-serif;
+}
+body{
+    background-image: url('moon.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65rem;
+    align-self: flex-start;
+}
+p{
+    font-family: 'Oxygen', sans-serif;
+}
+.logo{
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-weight: 900;
+    font-size: xx-large;
+  position: relative;
+  top: 1em;
+  left: 2em;
+}
+nav a{
+    font-family: 'ubuntu', sans-serif;
+    color: white;
+    font-size: larger;
+    margin-right: 2em;
+    text-transform: capitalize;
+}
+nav button{
+    font-family: 'ubuntu', sans-serif;
+    background-color: rgb(48, 240, 208);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    color: white;
+}
+  nav button:hover{
+background-color: rgb(209, 185, 231);
+color: rgb(43, 43, 43);
+}
+
+center #login, button{
+    position: relative;
+    left: 25em;
+}
+center button{
+    position: relative;
+    left: 30rem;
+}
+center a{
+    text-decoration: none;
+}
+
+
+/* describtrion and introduction */
+.desc1{
+    margin-top: 10em;
+}
+.desc1 h1{
+    font-family: 'ubuntu', sans-serif;
+}
+.desc1 h2{
+    font-family: 'nato', sans-serif;
+}
+.desc1 button{
+    font-family: 'ubuntu', sans-serif;
+    margin: 150px 100px 100px 0;
+    position: relative;
+    left: 37em;
+}
+.desc1 button:hover{
+    background-color: rgb(146, 143, 138);
+    color: rgb(238, 238, 238);
+}
+.desc1 h2{
+    color: white;
+    font-size: x-large;
+    line-height: 1.5;
+}
+#touch{
+    background-color: rgb(107, 231, 215);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: medium;
+    border: none;
+}
+#get{
+    background-color: rgb(212, 218, 217);
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: medium;
+    border: none;
+}
+
+/* shared stylings */
+.cont h2{
+    font-family: 'ubuntu', sans-serif;
+}
+.cont p{
+    font-family: 'oxygen', sans-serif;
+}
+.cont, .dep, .intro{
+    margin: 200px 50px 150px 30px;
+    display: flex;
+    position: relative;
+    left: 15em;
+}
+.cont div{
+margin: 0 20px 0 20px;
+width: 18em;
+height: 9em;
+border-radius: 10px;
+}
+.cont1, .cont2{
+    background-color: rgb(224, 214, 214);
+    padding: 20px 20px;
+}
+.cont3{
+    background-color: aqua;
+    padding: 20px 20px;
+}
+.cont i{
+    color:rgb(255, 255, 255);
+}
+
+
+/* dep section */
+.dep h2{
+    font-family: 'ubuntu', sans-serif;
+}
+.dep p{
+    font-family: 'ubuntu', sans-serif;
+}
+.dep{
+    display: flex;
+    justify-content: space-around;
+}
+.dep div{
+    margin-right: 40px;
+}
+.dep i{
+    color: aquamarine;
+}
+
+.industry h1{
+    color: rgb(50, 61, 61);
+}
+.industry p{
+    font-size: large;
+}
+.intro{
+    position: relative;
+    left: 6.5rem;
+}
+.intro div{
+    margin: 8px 0px 20px 30px; 
+    border: 1px solid rgb(165, 165, 165);
+    padding: 20px;
+    height: 25em;
+    border-radius: 10px;
+}
+.intro img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 40px 90px;
+}
+
+/* subsription and email */
+.advert{
+    background-color: rgb(84, 228, 132);
+    color: white;
+    width: 100%;
+    height: 150px;
+    margin: 0 20px 200px 20px;
+}
+.subs {
+    margin: 20px 20px;
+    position: relative;
+    left: 10em;
+    top: 10px;
+    font-size: xx-large;
+    width: 10em;
+    color: white;
+
+}
+.mail{
+    position: relative;
+    left: 60em;
+    bottom: 60px;
+    background-color: aqua;
+    width:pricinfmax-content;
+}
+.mail label{
+   padding: 20px;
+}
+.mail input{
+    width: 23em;
+    height: 40px;
+    border: none;
+}
+
+
+/* pricing */
+.pricing p{
+    font-family: 'ubuntu', sans-serif;
+}
+.pticing h1{
+    font-family: 'oxygen', sans-serif;
+}
+.pricing{
+    margin: 100px 100px;
+}
+.pricing h1{
+    color: black;
+}
+.classes  h2, p{
+    font-size: large;
+    line-height: 3;
+    padding-left: 10px;
+    font-size: large;
+
+}
+.classes h2{
+    padding-left: 1rem;
+    text-transform: capitalize;
+}
+.classes{
+    margin: 100px 80px;
+    display: flex;
+}
+.classes div{
+    margin: 50px;
+    border: 1px solid skyblue;
+    height: 25em;
+    border-radius: 10px;
+    width: 20em;
+}
+
+.classes button{
+    position: relative;
+    top: 2em;
+    left: 2em;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(74, 255, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;font-size: medium;
+    font-weight: 700;
+}
+.standerd {
+    background-color: rgb(25, 37, 37);
+    color: white;
+    height: 50rem;
+}
+.standerd p{
+    color: white;
+}
+
+
+.world{
+    z-index: -1;
+    background-image: url('moon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 200px;
+}
+
+.bruches{
+    margin: 200px 220px;
+}
+.bruches p, h1{
+color: white;
+line-height: 2;
+}
+.appointment h2{
+margin: 25px 0 25px 10px;
+}
+.appointment{
+    margin-left: 70rem;
+    background-color: rgb(243, 239, 239);
+    width: 330px;
+    margin: 50px 50px;
+    position: relative;
+    left: 500px;
+    padding: 30px 30px;
+}
+.appointment button{
+   background-color: rgb(101, 250, 250);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.appointment input, select{
+    background-color: rgb(238, 210, 210);
+}
+.docs{
+    padding: 30px 30px;
+    
+}
+.appointment input, label, select, button{
+    margin: 14px 0 15px 0;
+}
+.appointment select, input{
+    width: 250px;
+    height: 35px;
+}
+.appointment button{
+    position: relative;
+    left: 1em;
+    top: 4em;
+}
+.appointment button{
+    position: relative;
+    left: 2em;
+}
+
+.btm{
+    margin: 400px 100px 100px 300px;
+    display: flex;
+}
+.btm button{
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+    width: 9em;
+}
+.btm h2, p{
+    color: black;
+    line-height: 2;
+}
+.btm h2{
+    text-transform: capitalize;
+}
+
+.terms{
+    display: flex;
+    margin: 200px 220px;
+}
+ .terms div{
+        margin: 0 40px 0 30px;
+
+    }
+    .reserved{
+        margin: 200px 240px;
+    }
